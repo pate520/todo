@@ -26,8 +26,10 @@ const nextConfig = {
                 port: '',
                 pathname: '**'
             }
-        ]
-    }
+        ],
+        unoptimized: true,
+    },
+    output: 'standalone'
 };
 
 export default nextConfig;
