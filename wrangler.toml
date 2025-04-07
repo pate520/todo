@@ -5,6 +5,6 @@ pages_build_output_dir = ".vercel/output/static"
 
 [[d1_databases]]
 binding = "MY_DB"
-database_name = "cursorhustle"
-database_id = "e94c8997-1dc5-4b49-ad93-85bfbb0d30e8"
+database_name = "todo"
+database_id = "5a18c6ae-5ba7-4fbb-b7fb-3886c7c6c2b3"
 migrations_dir = "./db/migrations"
