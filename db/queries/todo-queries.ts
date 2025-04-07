@@ -1,8 +1,8 @@
 "use server";
 
 import { eq } from "drizzle-orm";
-import { db } from "../db";
-import { todoTable, type NewTodo } from "../schema/todo-schema";
+import { db } from "@/db";
+import { todoTable, type NewTodo } from "@/db/schema/todo-schema";
 
 // 创建新的待办事项
 export async function createTodo(data: NewTodo) {
